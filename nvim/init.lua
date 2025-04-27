@@ -1,0 +1,8 @@
+require("config.autocmds")
+require("config.keymaps")
+require("config.options")
+require("config.lazy")
+require("config.telescope")
+require("lualine").setup()
+require("config.nvim-lspconfig")
+require("config.nvim-cmp")
